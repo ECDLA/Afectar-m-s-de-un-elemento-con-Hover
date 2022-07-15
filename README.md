@@ -44,7 +44,8 @@ Lo que se quiere hacer es aplicarle una opacidad 0 al fondo degradado y al icono
 <h2>SOLUCIÓN AL PROBLEMA</h2>
 Primero se tiene que encerrar a los objetos a quienes se les quiere afectar con él hover, en este caso dentro estarán la imagen del video y él icono él cual quería algo así nuestro código.
 
-<pre><body>
+<pre><code>
+<body>
     <main class="principal">
         <div class="video">
             <figure class="video__miniatura">
@@ -53,7 +54,8 @@ Primero se tiene que encerrar a los objetos a quienes se les quiere afectar con 
             </figure>
         </div>
     </main>
-</body></pre>
+</body>
+</code></pre>
 
 Para la solución solo usaremos las clases: video__miniatura y video__icon-video por lo que lo demás lo pueden ignorar.
 Empezaremos con él CSS él cual le aplicaremos una variable la cual se modificará para afectar al otro elemento por lo que sería quedaría algo así:
